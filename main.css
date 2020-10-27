@@ -1,3 +1,4 @@
+
 .wholePage{
     background-color: orange;
     position: fixed;
@@ -11,7 +12,8 @@
     height: 25%;
 }
 
-h1{
+.title{
+    text-align: center;
     font-family: 'Pacifico', cursive;
 }
 

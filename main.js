@@ -1,5 +1,15 @@
+var chrisNeeds;
+
+
+
+
+
 function setNeeds() {
-    document.getElementById("needs").innerHTML = "I need these things";
+  document.getElementById("showChris").innerHTML = document.getElementById("chrisNeeds").innerHTML;
+}
+
+function pullNeeds() {
+  document.getElementById("showChris").innerHTML = chrisNeeds;
 }
 let map;
 
